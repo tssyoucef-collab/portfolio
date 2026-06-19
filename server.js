@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
 // ── Firebase Admin Initialization ──
-const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH || './serviceAccountKey.json';
+const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH || './youcef-portfolio-firebase-adminsdk-fbsvc-5eb82197db.json';
 
 try {
   const serviceAccount = JSON.parse(readFileSync(serviceAccountPath, 'utf8'));
