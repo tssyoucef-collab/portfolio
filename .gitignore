@@ -8,3 +8,7 @@ youcef-portfolio-firebase-adminsdk-fbsvc-5eb82197db.json
 serviceAccountKey.json
 *.json"youcef-portfolio-firebase-adminsdk-fbsvc-5eb82197db.json" 
 "serviceAccountKey.json" 
+"serviceAccountKey.json" 
+"youcef-portfolio-firebase-adminsdk-*.json" 
+".env" 
+"node_modules/" 
