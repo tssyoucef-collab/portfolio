@@ -1,0 +1,21 @@
+{
+  "name": "Youcef Boukhobza — Portfolio",
+  "short_name": "YB Portfolio",
+  "description": "Full-stack & AI Engineer | Web Development Professional",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#22D3EE",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
