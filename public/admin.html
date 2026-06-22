@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <style>
+    body { background: #0F172A; color: #E2E8F0; font-family: 'Inter', sans-serif; padding: 2rem; }
+    h1 { color: #22D3EE; }
+    .stats { display: flex; gap: 2rem; margin-bottom: 2rem; }
+    .stat-card { background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; min-width: 150px; }
+    .stat-card span { font-size: 2rem; color: #22D3EE; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #1E293B; }
+    .status { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; }
+    .pending { background: #F59E0B; color: #000; }
+    .in-progress { background: #3B82F6; color: #fff; }
+    .completed { background: #10B981; color: #000; }
+  </style>
+</head>
+<body>
+  <h1>📊 Admin Dashboard</h1>
+  <div class="stats" id="stats">
+    <div class="stat-card">Total Requests <span id="total">0</span></div>
+    <div class="stat-card">Pending <span id="pending">0</span></div>
+    <div class="stat-card">In Progress <span id="inProgress">0</span></div>
+    <div class="stat-card">Completed <span id="completed">0</span></div>
+  </div>
+  <table id="requestsTable">
+    <thead><tr><th>ID</th><th>Name</th><th>Service</th><th>Status</th><th>Action</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <script>
+    // This page requires admin authentication (you can add a simple password or Firebase admin check)
+    // For now, it fetches from /api/admin/requests (you need to implement that endpoint)
+    // I'll leave this as a template; you can expand it.
+    console.log('Admin panel – implement authentication and API endpoints.');
+  </script>
+</body>
+</html>
